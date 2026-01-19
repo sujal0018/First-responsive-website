@@ -32,8 +32,14 @@ main {
   display: flex;
   flex-direction: column;
   width: 100%;
+  padding-top: 80px;
 }
 main nav {
+    background-color: #121212;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
   width: 100%;
   padding: 1rem 1rem 0 1rem;
   display: flex;
